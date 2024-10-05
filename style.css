@@ -20,24 +20,22 @@ body {
 }
 
 /* Button Styles */
-a.btn {
+a {
     text-decoration: none;
     position: absolute; /* Position it absolutely */
     top: 20px; /* Distance from the top */
     right: 20px; /* Distance from the right */
     background-color: #292929; /* Button background color */
     color: white; /* Button text color */
+    border: none; /* Remove default border */
     padding: 10px 20px; /* Button padding */
     font-size: 1rem; /* Button font size */
     border-radius: 5px; /* Rounded corners */
     cursor: pointer; /* Pointer cursor on hover */
-    border: 2px solid transparent; /* Transparent border for hover effect */
-    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
 }
 
-a.btn:hover {
-    background-color: #000000; /* Darker background on hover */
-    border-color: white; /* Show border on hover */
+a:hover {
+    background-color: #000000; /* Darker blue on hover */
 }
 
 .container {
@@ -74,7 +72,6 @@ footer {
     left: 50%;
     transform: translateX(-50%); 
     font-size: 0.9rem; 
-    color: white; /* Ensures footer text is visible */
 }
 
 /* Animation Keyframes */
@@ -133,3 +130,25 @@ footer {
         transform: rotate(0);
     }
 }
+
+/* Button Gradient Styles */
+.btn {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+@keyframes gradient_301 {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
