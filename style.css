@@ -21,6 +21,7 @@ body {
 
 /* Button Styles */
 a {
+    text-decoration: none;
     position: absolute; /* Position it absolutely */
     top: 20px; /* Distance from the top */
     right: 20px; /* Distance from the right */
@@ -33,7 +34,7 @@ a {
     cursor: pointer; /* Pointer cursor on hover */
 }
 
-button:hover {
+a:hover {
     background-color: #000000; /* Darker blue on hover */
 }
 
