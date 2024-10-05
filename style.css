@@ -20,7 +20,7 @@ body {
 }
 
 /* Button Styles */
-button {
+a {
     position: absolute; /* Position it absolutely */
     top: 20px; /* Distance from the top */
     right: 20px; /* Distance from the right */
